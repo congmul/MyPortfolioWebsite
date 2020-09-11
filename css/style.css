@@ -6,6 +6,23 @@ h1 {
     margin:0;
 }
 
+.underline{
+    width: 100%;
+    border-bottom: solid 0.1rem;
+    margin-top: 1rem;
+}
+
+.floatClass{
+    display: flex;
+    float: left;
+}
+
+@media (max-width: 767.95px){
+    .container{
+        width: 350px;
+    }
+}
+
 .footer{
     position: fixed;
     bottom: 0;
