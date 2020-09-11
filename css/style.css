@@ -27,7 +27,8 @@ h1 {
     width: 90%;
 }
 
-.btn{
+#submit{
+
     padding: 15px 32px;
     border-radius: 0;
 }
