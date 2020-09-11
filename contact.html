@@ -14,7 +14,7 @@
 <body>
 
 <!--Start Nav-->
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand bg-info text-white" href="#">JEHYUN JUNG</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -34,8 +34,37 @@
         </div>
     </nav>
 
-<!--Start Container-->    
-    <h1 class="text-center mt-5">Modifying</h1>
+<!--Start Container-->   
+    <div class="container mb-5">
+      <div class="row">
+        <div class="col-md-8 bg-light mt-5 mb-5 pt-3 pl-5 pr-5 pb-2">
+          <div class="row">
+            <h1 class="text-info">Contact</h1>
+          </div>
+          <div class="row text-info">
+            <h1 class="underline"></h1>
+          </div>
+            <form class="row mt-3 mb-3">
+              <div class="col-md-10">
+              <div class="form-group ml-3">
+                <label for="exampleInputEmail1">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Name">
+              </div>
+                <div class="form-group ml-3">
+                  <label for="exampleInputPassword1">Email</label>
+                  <input type="email" class="form-control" id="email" placeholder="Email">
+                </div>
+                <div class="form-group ml-3">
+                  <label for="exampleFormControlTextarea1">Message</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Message"></textarea>
+                </div>
+              <button type="submit" class="btn btn-info pt-2 pb-2 pr-4 pl-4">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    
 
 <!-- Start Footer -->
     <footer class="footer">
