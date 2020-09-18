@@ -4,8 +4,9 @@ Link : https://congmul.github.io/MyPortfolioWebsite/
 
 Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application. 
 
-![](asset/img/image01.png)
-![](asset/img/image02.png)
+<img src="asset/img/image01.png" width ="500">
+<img src="asset/img/image02.png" width ="500">
+
 
 ## Directions
 
