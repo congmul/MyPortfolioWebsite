@@ -1,43 +1,49 @@
 body{
     background: rgb(231, 231, 231);
+    font-family: serif; 
 }
 
+/* Page's Title in Header*/
 h1 {
-    margin:0;
+    font-weight: 900;
 }
 
+/* Underline under Page's Title in Header */
 .underline{
     width: 100%;
     border-bottom: solid 0.1rem;
-    margin-top: 1rem;
+    margin-top: 0.3rem;
 }
 
-.floatClass{
+/* Float image in About Me page */
+#floatAboutImg{
     display: flex;
     float: left;
 }
 
+/* Resize container when lower than 767.95px */
 @media (max-width: 767.95px){
     .container{
         width: 350px;
     }
 }
 
+/* Form's width in Contact page */
 .form-group{
     width: 90%;
 }
 
+/* submit button in Contact page */
 #submit{
-
     padding: 15px 32px;
     border-radius: 0;
 }
 
+/* Start Footer */
 .footer{
     position: fixed;
     bottom: 0;
     width: 100%;
-    
 }
 .footerTop{
     width: 100%;
@@ -45,14 +51,12 @@ h1 {
     background:#24a3b8;
     margin: 0;
 }
-
 .footerBottom{
     width: 100%;
     height: 50px;
     background:rgb(143, 143, 143);
     margin: 0;
 }
-
 .copyright{
     padding-top: 0.6rem;
 }
